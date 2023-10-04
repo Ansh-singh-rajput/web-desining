@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistaion form</title>
+    <style>
+        body {
+            background: url(image/student.jpg);
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .b {
+            text-align: center;
+            /*0.1 1.0*/
+            background: rgba(0, 0, 0, 1.5);
+            color: white;
+            font-size: 36px;
+            box-shadow: 3px 3px 3px white;
+        }
+
+        .a {
+            width: 666px;
+            height: 800px;
+            margin-top: 70px;
+            background: linear-gradient(#5f7a4061, #00ff16bd);
+            text-align: left;
+            padding: 15px;
+            color: #FFEB3B;
+            border-width: 2px;
+
+        }
+
+        .a button {
+            width: 190px;
+            height: 39px;
+            color: #00BCD4;
+            background: black;
+            font-size: 15px;
+        }
+        .a button:hover{
+            background:green;
+        }
+    </style>
+</head>
+
+<body>
+    <Center>
+
+        <form>
+
+            <div class="a">
+                <h1 class="b">Student Form</h1>
+                Name:
+                <input type="text" name="" placeholder="First name" size="10" required>
+                <input type="text" name="" placeholder="Middle name" required size="10">
+                <input type="text" name="" placeholder="Last name" required size="10">
+                <br><br>
+                Email:
+                <input type="Email" name="" placeholder="abc@example.com" required
+                    size="42">
+                <br><br>
+                Password:
+                <input type="password" name="p" size="39">
+                <br><br>
+                Confirm Password:
+                <input type="password" name="p" size="30">
+                <br><br>
+                Date of birth:
+                <input type="Date" name="dob">
+                <br><br>
+                Mobile no:
+                <input type="number" name="phone">
+                <br><br>
+                Select collage:
+                <select name="col">
+                    <option>select collage</option>
+                    <option>mits</option>
+                    <option>itm</option>
+                    <option>MPCT</option>
+                </select>
+                <br><br>
+                Eduction:
+                <input type="Checkbox" name="edu" value="10th">10th
+                <input type="Checkbox" name="edu" value="12th">12th
+                <input type="Checkbox" name="edu" value="BCA">BCA
+                <br><br>
+                Gender:
+                <input type="radio" name="gen" value="male">Male
+                <input type="radio" name="gen" value="Female">Female
+                <br><br>
+                Adress:
+                <textarea name="" cols="40" rows="3"></textarea>
+                <br><br>
+                City:
+                <input type="text" name="city" placeholder="City name" required>
+                <br><br>
+                State:
+                <input type="text" name="state" placeholder="State name" required>
+                <br><br>
+                Country:
+                <input type="text" name="Country" placeholder="Country name" required>
+                <br><br>
+                Hobbies:
+                <input type="radio" name="hob" value="Sport">Sport
+                <input type="radio" name="hob" value="Music">Music
+                <input type="radio" name="hob" value="Games">Games
+                <input type="radio" name="hob" value="Other">Other
+                <br><br>
+                Select Docoment:
+                <input type="file" name="image">
+
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="submit">login</button>
+            </div>
+        </form>
+    </Center>
+</body>
+
+</html>

@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+    background: #fff;
+    color: #212121;
+}
+
+
+.topbar {
+    background-color: #410088;
+    color: white;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    padding: 0 89px;
+    align-items: center;
+    font-size: 17px;
+}
+.topbar a {
+    display: flex;
+
+}
+
+.header {
+    width: 100%;
+    height: 106px;
+    background-color: #9239a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 108px;
+}
+
+.header .logoname {
+    margin-left: -173px;
+}
+
+.logoname h2 {
+    font-size: 2vw;
+    margin: 0px 0 0 0;
+    color: #ffd957;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.logoname h1 {
+    font-size: 2.3vw;
+    line-height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.menu {
+    background-color: #f7b120;
+    width: 100%;
+    height: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 0 15px;
+    line-height: 45px;
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.marquee {
+    width: 100%;
+    height: 50px;
+    background: #4d4090 url(http://ayushmanup.in/assets/images/city_background.png) no-repeat top right;
+    padding: 0 100px;
+}
+
+.marquee marquee {
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.box {
+    display: flex;
+    margin-left: 88px;
+    margin-top: 35px;
+    width: max-content;
+    background-color: #f3f8f9;
+    border-bottom: 3px solid #c2d9de;
+}
+.box2 {
+    border-left: 3px solid #c2d9de;
+    border-bottom: 3px solid #c2d9de;
+    border-bottom-left-radius: 14px;
+    margin-top: 0px;
+    border-right: 3px solid #c2d9de;
+    border-bottom-right-radius: 10px;
+}
+.imgbox {
+    display: flex;
+}
+
+.imgbox2 {
+    border-left: 3px solid #c2d9de;
+    border-top: 3px solid #c2d9de;
+    border-top-left-radius: 10px;
+}
+
+.imgbox img {
+    width: 80px;
+    height: 80px;
+    margin-left: 21px;
+}
+
+.boxtxt h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: orangered;
+    font-size: 25px;
+    margin: 10px 174px 4px 17px;
+}
+
+.boxtxt p {
+    font-size: 11px;
+    margin-left: 17px;
+    color: #000000;
+    margin-top: 9px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+.intro{
+    width: 40%;
+    margin: 25px 105px;
+}
+.intro h4{
+    color: #4d4090;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 7px;
+}
+.intro h3{
+    color: #212121;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 2px;
+}
+.intro p{
+    color: #212121;
+    font-size: 17px;
+    padding-top: 2px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 25px;
+    padding-right: 32px;
+}
+.intro .btn {
+    background-color: #4d4090;
+    color: #fff;
+    padding: 14px 22px;
+    margin-top: 23px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.intro .btn:hover {
+    background-color: #08a321;
+}
+.intro2 {
+    width: 60%;
+}
+.minister{
+    display: flex;
+}
+.services {
+    margin: 30px 99px 0px -69px;
+}
+
+.services .boxs {
+    padding: 10px;
+    background: #f3f4ff;
+}
+
+.services .boxs img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.services .boxs p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #212121;
+    font-weight: 100;
+}
+
+.services .box1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #212121;
+    font-weight: 100;
+}
+
+.services .box1 {
+    padding: 10px;
+    background: #f3f4ff;
+
+}
+
+.services .box1 img {
+    height: 80px;
+}
+
+.services .box1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #212121;
+    font-weight: 100;
+}
+
+.margin {
+    margin: -89px -3px 30px 103px;
+}
+
+.margin2 {
+    margin: -92px -3px 18px 103px;
+}
+
+.h-secondary {
+    color: #4d4090;
+    padding: 6px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+.hospital{
+    width: 100%;
+    height: 200px;
+    background: #4d4090 url(../image/city_background.png);
+    margin-bottom: 24px;
+}
+.hospital_image{
+    margin-left: 201px;
+    padding-top: 47px;
+}
+.hospitalh2{
+    color: #ffcd00;
+    font-weight: 700;
+    font-size: 1.9vw;
+    margin-top: -115px;
+    margin-left: 367px;
+    font-family: sans-serif;
+    word-spacing: 2px;
+}
+.hos_button{
+    color: #f7b120;
+    padding-left: 1100px;
+
+}
+.button3{
+    height: 40px;
+    width: 120px;
+    background-color: #eeb217;
+    border: #eeb217;
+}
+
+.marqu {
+    margin-left: 106px;
+    display: flex;
+}
+
+.mar-box {
+    width: 29%;
+    background-color: steelblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin: 70px 9px;
+}
+
+.mar-txt {
+    color: white;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 10px;
+    line-height: 29px;
+}
+
+.cir {
+    padding-left: 10px;
+    font-size: 27px;
+    color: #ffcd00;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.gov {
+    padding-left: 10px;
+    font-size: 27px;
+    color: #ffcd00;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.txt-hindi {
+    height: 300px;
+    background-color: beige;
+    border-bottom: solid;
+    border-bottom-color: steelblue;
+    padding: 15px;
+
+}
+
+.txt {
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #444444;
+    line-height: 27px;
+}
+
+.mar-btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 5px 3px;
+    border-style: none;
+}
+
+.latest {
+    margin: 15px 112px;
+}
+
+.latest h2 {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'circular';
+    color: #212121;
+}
+.speaker {
+    background-color: #33537b;
+    margin-left: 100px;
+    padding-left: 9px;
+    padding-top: 5px;
+    margin-block: auto;
+    padding-right: 5px;
+    margin-top: 70px;
+}
+.Ayushman {
+    padding: 81px 75px;
+    line-height: 29px;
+}
+
+.Ayushman p {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #212121;
+}
+.team_icon{
+    background: #f3f4ff;
+    overflow: hidden;
+    position: relative;
+    height: 281px;
+    width: 100%;
+}
+.teamate h2{
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 174px;
+    font-size: 43px;
+    margin-top: 84px;
+
+}
+.owl{
+    position: absolute;
+    right: 35px;
+    height:100px;
+    margin-right: 73pc;
+
+}
+.video{
+    margin-left: 554px;
+    margin-top: -99px;
+}
+.team_image{
+    margin-top: -173px;
+    margin-left: 881px;
+
+}
+.press{
+    margin-left: 1203px;
+    margin-top: -168px;
+}
+.our {
+    background-color: #f3f4ff;
+    display: flex;
+}
+
+.our-txt {
+    font-size: 22px;
+    padding: 100px 103px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.our-txt h2 {
+    padding-bottom: 18px;
+}
+
+.vid {
+    padding: 71px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 70px;
+    padding: 0 100px;
+}
+.bottom .a{
+   width: 100%;
+   height: 100%;
+}
+.footer {
+    background-color: #32363a;
+    color: #cecece;
+    display: flex;
+    padding: 78px 100px;
+}
+.location {
+    font-size: 18px;
+    font-family: 'circular';
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.location  h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+.quick {
+    font-size: 18px;
+    font-family: 'circular';
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.quick h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.stay {
+    font-size: 18px;
+    font-family: 'circular';
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.stay h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.txt-li li {
+    margin-left: -14px;
+    color: white;
+    font-weight: 300;
+    font-family: system-ui;
+    list-style-type: none;
+    line-height: 36px;
+}
+
+.txt-li2 li {
+    margin-left: -14px;
+    color: white;
+    font-weight: 300;
+    font-family: system-ui;
+    list-style-type: none;
+    line-height: 36px;
+}
+
+.txt-li3 li {
+    margin-left: 60px;
+    color: white;
+    font-weight: 300;
+    font-family: system-ui;
+    list-style-type: none;
+    line-height: 31px;
+    font-size: 16px;
+}
+
+.last {
+    background-color: #3b4044;
+    height: 50px;
+}
+
+.last {
+    padding: 16px 133px;
+    color: #d3d3d3;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+

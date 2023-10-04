@@ -1,0 +1,211 @@
+*{margin: 0 10px;
+padding: 0;
+box-sizing: border-box;}
+
+nav{background: rgb(169, 223, 190);
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: space-between;      
+align-items: center;
+padding: 0 30px;
+position: fix;
+top: 0;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 0 5px;
+}
+.banner{
+    background:url(../image/burger.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    text-align: center;
+    color: rgb(16, 139, 92);
+    font-size: 60px;
+    font-family: cursive;
+    padding: 150px;
+} 
+.border{
+    background:#816a6a7a ;
+    width: 100%;
+    height: 80px;
+    margin-top: -47px;
+}
+.About{
+    background: white;
+    padding: 100px 220px;
+    text-align: center;
+}
+.About h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(231, 119, 27);
+    margin-bottom: 8px;
+}
+.About p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+.About button{
+    width: 150px;
+    height: 30px;
+    background: green;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 14px;
+    font-size: 15px;
+}
+.About button:hover{
+    background: blue;
+}
+.press{
+    background: url(../image/delivery\ boy.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 220px;
+    text-align: center;
+}
+.press h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(180, 131, 26);
+    margin-bottom: 8px;
+}
+.press p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+.press button{
+    width: 150px;
+    height: 30px;
+    background: green;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 14px;
+    font-size: 15px;
+}
+.Team{
+    background: url(../image/fruits.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 220px;
+    text-align: center;
+}
+.Team h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(150, 13, 13);
+    margin-bottom: 8px;
+}
+.Team p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+.Team button{
+    width: 150px;
+    height: 30px;
+    background: rgb(197, 128, 24);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 14px;
+    font-size: 15px;
+}
+.Brand{
+    background: #816a6a7a;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 25px 0px;
+}
+.Brand h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(201, 29, 109);
+    margin-bottom: 8px;
+}
+.Brand p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+.Brand button{
+    width: 150px;
+    height: 30px;
+    background: rgb(5, 83, 5);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 14px;
+    font-size: 15px;
+}
+footer{
+    background: rgba(243, 237, 237, 0.801);
+    padding: 40px 130px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+}
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 200px;
+}
+.second h4{
+    font-weight: lighter;
+    color: rgba(8, 128, 54, 0.699);
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+}
+.third{
+    padding: 10px 0;
+    color: rgb(179, 10, 10);
+    font-size: 0 7rem;
+}
